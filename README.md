@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Project Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Hub es una aplicación web para gestionar proyectos y tareas de forma eficiente. Permite a los usuarios crear tableros personalizados, añadir tarjetas con tareas asociadas, y realizar un seguimiento del progreso de cada proyecto.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Demo ProjectHub](https://projecthubx.netlify.app/)
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React:** Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+- **Redux:** Biblioteca de gestión de estado para aplicaciones JavaScript, especialmente útil para aplicaciones con una gran cantidad de datos.
+- **TypeScript:** Superset de JavaScript que añade tipado estático opcional y otras características avanzadas para mejorar el desarrollo y mantenimiento de aplicaciones.
+- **Tailwind CSS:** Framework de CSS utilitario para construir rápidamente interfaces de usuario personalizadas y receptivas.
 
-- Configure the top-level `parserOptions` property like this:
+¡Project Hub hace que la gestión de proyectos sea más fácil y organizada!
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Requisitos del Sistema
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js 12 o superior.
+- Navegadores compatibles: Google Chrome, Mozilla Firefox, Safari.
+
+## Instalación
+
+1. Clona este repositorio.
+2. Instala las dependencias utilizando el comando `npm install`.
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir al desarrollo de Project Hub, sigue estos pasos:
+
+1. Clona el repositorio: `git clone https://github.com/justin-A18/projectHub.git`
+2. Instala las dependencias: `npm install`
+3. Crea una rama para tu función: `git checkout -b mi-funcion`
+4. Realiza tus cambios y haz commit: `git commit -am 'Agrega una nueva función'`
+5. Envía tu rama: `git push origin mi-funcion`
+6. Envía un pull request.
